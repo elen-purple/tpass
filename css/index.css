@@ -50,20 +50,17 @@ body {
   max-width: 1240px;
   margin: 0 auto;
   padding: 0 15px;
-  outline: darkred dashed;
 }
 
 .header {
   padding: 30px 0;
   background-color: #f4f5f6;
 }
-
 .header .container {
   padding: 0 70px;
   display: flex;
   align-items: center;
 }
-
 .header__list {
   display: flex;
   align-items: center;
@@ -71,20 +68,66 @@ body {
   margin-right: 60px;
   gap: 73px;
 }
-
 .header__link {
   color: #0f2336;
   font-size: 14px;
   font-weight: 700;
-  line-height: 1, 2;
+  line-height: 1.2;
 }
-
 .header__btn {
   color: #fff;
   font-size: 14px;
   font-weight: 700;
-  line-height: 1, 2;
+  line-height: 1.2;
   padding: 16px 26px;
   background-color: #0f2336;
   border-radius: 8px;
+}
+
+.hero {
+  padding-top: 87px;
+  padding-bottom: 185px;
+  background-color: #f4f5f6;
+}
+.hero .container {
+  padding: 0 70px;
+  position: relative;
+}
+.hero__title {
+  color: #0f2336;
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 1.38;
+  letter-spacing: 1.11px;
+  width: 534px;
+  margin-bottom: 50px;
+}
+.hero__accent {
+  color: #0cc;
+}
+.hero__point {
+  color: #f3af47;
+}
+.hero__btn {
+  color: #0f2336;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.2;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 19px 35px 19px 21px;
+  border-radius: 14px;
+  background: #0cc;
+  box-shadow: 0px 3px 18px 0px rgba(0, 201, 201, 0.55);
+}
+.hero__icon {
+  fill: none;
+  stroke: #0f2336;
+}
+.hero__img {
+  width: 793px;
+  position: absolute;
+  bottom: -185px;
+  right: -15px;
 }/*# sourceMappingURL=index.css.map */
