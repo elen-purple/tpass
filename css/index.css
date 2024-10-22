@@ -44,4 +44,11 @@ body {
 *::selection {
   background-color: #0cc;
   color: #fff;
+}
+
+.container {
+  width: 1210px;
+  margin: 0 auto;
+  padding: 0 15px;
+  outline: darkred dashed;
 }/*# sourceMappingURL=index.css.map */
