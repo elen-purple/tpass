@@ -15,7 +15,7 @@
           height="47"
           viewBox="0 0 130 47"
           fill="none"
-          class="header-logo"
+          class="header__logo"
         >
           <g clip-path="url(#clip0_0_268)">
             <path
@@ -69,61 +69,141 @@
             </clipPath>
           </defs>
         </svg>
-        <ul class="header-list">
-          <li class="header-item"><a href="" class="header-link">Stores</a></li>
-          <li class="header-item">
-            <a href="" class="header-link">Help & Support</a>
+        <ul class="header__list">
+          <li class="header__item">
+            <a href="" class="header__link">Stores</a>
+          </li>
+          <li class="header__item">
+            <a href="" class="header__link">Help & Support</a>
           </li>
         </ul>
-        <button class="header-btn">Download</button>
+        <button class="header__btn">Download</button>
       </div>
     </header>
     <main class="main">
       <section class="hero">
-        <h1 class="hero-title">
-          <span class="hero-accent">Order ahead</span>and earn rewards for every
-          purchase<span class="hero-point">.</span>
-        </h1>
-        <button class="hero-btn">
-          <svg class="hero-icon" width="28" height="17">
-            <use href="./svg/icons.svg#arrow"></use>
-          </svg>
-        </button>
+        <div class="container">
+          <h1 class="hero__title">
+            <span class="hero__accent">Order ahead</span>and earn rewards for
+            every purchase<span class="hero__point">.</span>
+          </h1>
+          <button class="hero__btn">
+            <svg class="hero__icon" width="28" height="17">
+              <use href="./svg/icons.svg#arrow"></use>
+            </svg>
+          </button>
+          <picture>
+            <source
+              srcset="
+                ./img/hero/hero-img@1x.webp 1x,
+                ./img/hero/hero-img@2x.webp 2x
+              "
+            />
+            <img
+              class="hero__img"
+              src="./img/hero/hero-img@1x.webp 1x"
+              alt="A man and a woman are drinking milkshakes"
+            />
+          </picture>
+        </div>
       </section>
       <section class="advans">
-        <h2 hidden class="advans-title">Advantages</h2>
-        <ul class="advans-list">
-          <li class="advans-item">
-            <svg class="advans-icon" width="53" height="53">
-              <use href="./svg/icons.svg#advans-arrow"></use>
-            </svg>
-            <h3 class="advans-subtitle">Order ahead, skip the line</h3>
-            <p class="advans-desc">
-              Feel like a rock star when you bypass the line and save a bunch of
-              time.
+        <div class="container">
+          <h2 hidden class="advans__title">Advantages</h2>
+          <ul class="advans__list">
+            <li class="advans__item">
+              <svg class="advans__icon" width="53" height="53">
+                <use href="./svg/icons.svg#advans-arrow"></use>
+              </svg>
+              <h3 class="advans__subtitle">Order ahead, skip the line</h3>
+              <p class="advans__desc">
+                Feel like a rock star when you bypass the line and save a bunch
+                of time.
+              </p>
+            </li>
+            <li class="advans__item">
+              <svg class="advans__icon" width="53" height="53">
+                <use href="./svg/icons.svg#advans-procent"></use>
+              </svg>
+              <h3 class="advans__subtitle">Bonus and discounts</h3>
+              <p class="advans__desc">
+                You can enjoy lots of discounts from the selected stores, or
+                accumulate points.
+              </p>
+            </li>
+            <li class="advans__item">
+              <svg class="advans__icon" width="53" height="53">
+                <use href="./svg/icons.svg#advans-milkshake"></use>
+              </svg>
+              <h3 class="advans__subtitle">Share with your friends</h3>
+              <p class="advans__desc">
+                Send gifts to your friends and family, and pick up for your
+                coworkers when they can't get away .
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="work">
+        <div class="container">
+          <div class="work__wrapper">
+            <div class="work__imgs">
+              <picture>
+                <source
+                  srcset="
+                    ./img/work/work-milkshake@1x.webp 1x,
+                    ./img/work/work-milkshake@2x.webp 2x
+                  "
+                />
+                <img
+                  class="work__milkshake"
+                  src="./img/work/work-milkshake@1x.webp 1x"
+                  alt="A man and a woman aer drinking milkshakes"
+                />
+              </picture>
+              <picture>
+                <source
+                  srcset="
+                    ./img/work/work-phone@1x.webp 1x,
+                    ./img/work/work-phone@2x.webp 2x
+                  "
+                />
+                <img
+                  class="work__phone"
+                  src="./img/work/work-phone@1x.webp 1x"
+                  alt="A man and a woman aer drinking milkshakes"
+                />
+              </picture>
+              <picture>
+                <source
+                  srcset="
+                    ./img/work/work-detail@1x.webp 1x,
+                    ./img/work/work-detail@2x.webp 2x
+                  "
+                />
+                <img
+                  class="work__detail"
+                  src="./img/work/work-detail@1x.webp 1x"
+                  alt="A man and a woman aer drinking milkshakes"
+                />
+              </picture>
+            </div>
+            <h3 class="work__subtitle">Your daily pick-me-up</h3>
+            <h2 class="work__title">How does it work.</h2>
+            <p class="work__desc">
+              Start choosing your favorite teas and snacks in your nearby stores
+              and place your orders, accumulate points, share gifts and teas
+              with your friends and co-workers, and finally use our T-Pass to
+              get your free drinks.
             </p>
-          </li>
-          <li class="advans-item">
-            <svg class="advans-icon" width="53" height="53">
-              <use href="./svg/icons.svg#advans-procent"></use>
-            </svg>
-            <h3 class="advans-subtitle">Bonus and discounts</h3>
-            <p class="advans-desc">
-              You can enjoy lots of discounts from the selected stores, or
-              accumulate points.
-            </p>
-          </li>
-          <li class="advans-item">
-            <svg class="advans-icon" width="53" height="53">
-              <use href="./svg/icons.svg#advans-milkshake"></use>
-            </svg>
-            <h3 class="advans-subtitle">Share with your friends</h3>
-            <p class="advans-desc">
-              Send gifts to your friends and family, and pick up for your
-              coworkers when they can't get away .
-            </p>
-          </li>
-        </ul>
+            <ul class="work__dots">
+              <li class="work__dot"></li>
+              <li class="work__dot work__dot--accent"></li>
+              <li class="work__dot"></li>
+              <li class="work__dot"></li>
+            </ul>
+          </div>
+        </div>
       </section>
     </main>
   </body>
