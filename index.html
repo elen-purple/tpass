@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>T.Pass</title>
+    <link rel="icon" type="image/svg+xml" href="./svg/logo.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -129,9 +130,11 @@
           <h2 hidden class="advans__title">Advantages</h2>
           <ul class="advans__list">
             <li class="advans__item">
-              <svg class="advans__icon" width="53" height="53">
-                <use href="./svg/icons.svg#advans-arrow"></use>
-              </svg>
+              <div class="advans__wrapper">
+                <svg class="advans__icon" width="53" height="53">
+                  <use href="./svg/icons.svg#advans-arrow"></use>
+                </svg>
+              </div>
               <h3 class="advans__subtitle">Order ahead, skip the line</h3>
               <p class="advans__desc">
                 Feel like a rock star when you bypass the line and save a bunch
@@ -139,9 +142,11 @@
               </p>
             </li>
             <li class="advans__item">
-              <svg class="advans__icon" width="53" height="53">
-                <use href="./svg/icons.svg#advans-procent"></use>
-              </svg>
+              <div class="advans__wrapper">
+                <svg class="advans__icon" width="53" height="53">
+                  <use href="./svg/icons.svg#advans-procent"></use>
+                </svg>
+              </div>
               <h3 class="advans__subtitle">Bonus and discounts</h3>
               <p class="advans__desc">
                 You can enjoy lots of discounts from the selected stores, or
@@ -149,9 +154,11 @@
               </p>
             </li>
             <li class="advans__item">
-              <svg class="advans__icon" width="53" height="53">
-                <use href="./svg/icons.svg#advans-milkshake"></use>
-              </svg>
+              <div class="advans__wrapper">
+                <svg class="advans__icon" width="53" height="53">
+                  <use href="./svg/icons.svg#advans-milkshake"></use>
+                </svg>
+              </div>
               <h3 class="advans__subtitle">Share with your friends</h3>
               <p class="advans__desc">
                 Send gifts to your friends and family, and pick up for your
@@ -220,6 +227,68 @@
               <li class="work__dot"></li>
             </ul>
           </div>
+        </div>
+      </section>
+      <section class="benefits">
+        <div class="container">
+          <h2 class="benefits__title">Benefits</h2>
+          <ul class="benefits__list">
+            <li class="benefits__item">
+              <div class="benefits__wrapper">
+                <svg class="benefits__icon" width="24" height="31">
+                  <use href="./svg/icons.svg#benefits-award"></use>
+                </svg>
+              </div>
+              <div class="benefits__text">
+                <h3 class="benefits__subtitle">Loyalty Points</h3>
+                <p class="benefits__desc">
+                  Collect points on each store and redeem them to change for
+                  Teas.
+                </p>
+              </div>
+            </li>
+            <li class="benefits__item">
+              <div class="benefits__wrapper">
+                <svg class="benefits__icon" width="31" height="32">
+                  <use href="./svg/icons.svg#benefits-discount"></use>
+                </svg>
+              </div>
+              <div class="benefits__text">
+                <h3 class="benefits__subtitle">Exclusive Store Discounts</h3>
+                <p class="benefits__desc">
+                  You can enjoy lots of discounts from the selected stores near
+                  you.
+                </p>
+              </div>
+            </li>
+            <li class="benefits__item">
+              <div class="benefits__wrapper">
+                <svg class="benefits__icon" width="33" height="22">
+                  <use href="./svg/icons.svg#benefits-ticket"></use>
+                </svg>
+              </div>
+              <div class="benefits__text">
+                <h3 class="benefits__subtitle">T.Pass Free Drinks</h3>
+                <p class="benefits__desc">
+                  2 Teas for $5.99 each month. and you can carry them over to
+                  the next month.
+                </p>
+              </div>
+            </li>
+          </ul>
+          <picture>
+            <source
+              srcset="
+                ./img/benefits/benefits-img@1x.webp 1x,
+                ./img/benefits/benefits-img@2x.webp 2x
+              "
+            />
+            <img
+              class="benefits__img"
+              src="./img/benefits/benefits-img@1x.webp 1x"
+              alt="A man and a woman are drinking milkshakes"
+            />
+          </picture>
         </div>
       </section>
     </main>

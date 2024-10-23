@@ -50,6 +50,7 @@ body {
   max-width: 1240px;
   margin: 0 auto;
   padding: 0 15px;
+  outline: darkred dashed;
 }
 
 .header {
@@ -130,4 +131,120 @@ body {
   position: absolute;
   bottom: -185px;
   right: -15px;
+}
+
+.advans {
+  padding: 100px 0 60px;
+}
+.advans .container {
+  padding: 0 80px;
+}
+.advans__list {
+  display: flex;
+  gap: 52px;
+}
+.advans__item {
+  width: 325px;
+}
+.advans__wrapper {
+  width: 105px;
+  height: 105px;
+  background-image: linear-gradient(160deg, rgba(0, 201, 201, 0.03) 15.15%, rgba(0, 201, 201, 0.14) 93.19%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+.advans__subtitle {
+  color: #0f2336;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: 0.2px;
+  margin-bottom: 12px;
+}
+.advans__desc {
+  color: #576d81;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  width: 285px;
+}
+
+.work {
+  padding: 100px 0 220px;
+}
+.work .container {
+  padding: 0 50px;
+}
+.work__wrapper {
+  position: relative;
+  background-color: #f4f5f6;
+  padding: 115px 166px 97px 560px;
+  border-radius: 50px;
+}
+.work__imgs {
+  width: 580px;
+  height: 648px;
+  position: absolute;
+  left: 30px;
+  top: -50px;
+}
+.work__milkshake {
+  width: 187px;
+  position: absolute;
+  left: 0;
+  top: 165px;
+}
+.work__phone {
+  width: 321px;
+  position: absolute;
+  top: 0;
+  left: 125px;
+}
+.work__detail {
+  width: 223px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.work__subtitle {
+  color: #576d81;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1;
+  margin-bottom: 22px;
+}
+.work__title {
+  color: #0f2336;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 1.38;
+  width: 195px;
+  margin-bottom: 21px;
+}
+.work__desc {
+  color: #576d81;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  width: 414px;
+  margin-bottom: 50px;
+}
+.work__dots {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding-left: 4px;
+}
+.work__dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: #e3e6e8;
+}
+.work__dot--accent {
+  width: 55px;
+  background-color: #0cc;
 }/*# sourceMappingURL=index.css.map */
