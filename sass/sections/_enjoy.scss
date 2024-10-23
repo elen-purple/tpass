@@ -1,0 +1,65 @@
+.enjoy {
+    padding: 150px 0 113px;
+
+    & .container {
+        padding: 0 335px;
+    }
+
+    &__icon {
+        margin: 0 auto 23px;
+        display: block;
+    }
+
+    &__title {
+        color: $title-color;
+        text-align: center;
+        font-size: 50px;
+        font-weight: 900;
+        line-height: 1.2;
+        width: 519px;
+        margin: 0 auto 20px;
+    }
+
+    &__form {
+        display: flex;
+        gap: 20px;
+        margin-bottom: 20px;
+    }
+
+    &__input {
+        width: 394px;
+        border-radius: 6px;
+        background: $input-bg;
+        border: none;
+        padding: 16.5px 0;
+    }
+
+    &__input::placeholder {
+        color: $input-color;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.2;
+    }
+
+    &__btn {
+        border-radius: 14px;
+        background: $accent-color;
+        color: var(--title-color, #0F2336);
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.2;
+        padding: 16.5px 38px;
+    }
+
+    &__list {
+        display: flex;
+        gap: 24px;
+    }
+
+    &__item {
+        line-height: 0;
+    }
+
+    &__media {}
+}
