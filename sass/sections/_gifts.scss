@@ -1,0 +1,87 @@
+.gifts {
+    padding: 180px 0 75px;
+
+    & .container {
+        padding: 0 50px;
+    }
+
+    &__wrapper {
+        background-color: $accent-bg;
+        padding: 127px 0 109px 140px;
+        position: relative;
+    }
+
+    &__subtitle {
+        color: $text-color;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1;
+        margin-bottom: 22px;
+    }
+
+    &__title {
+        color: $title-color;
+        font-size: 40px;
+        font-weight: 900;
+        line-height: 1.38;
+        width: 331px;
+        margin-bottom: 21px;
+    }
+
+    &__desc {
+        color: $text-color;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        margin-bottom: 26px;
+        width: 404px;
+    }
+
+    &__dots {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        padding-left: 4px;
+    }
+
+    &__dot {
+        width: 10px;
+        height: 10px;
+        border-radius: 10px;
+        background-color: $dots-color;
+    }
+
+    &__dot--accent {
+        width: 55px;
+        background-color: $accent-color;
+    }
+
+    &__imgs {
+        position: absolute;
+        width: 547px;
+        height: 640px;
+        top: -50px;
+        right: 0;
+    }
+
+    &__detail {
+        width: 163px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+
+    &__phone {
+        width: 321px;
+        position: absolute;
+        bottom: 0;
+        left: 102px;
+    }
+
+    &__milkshake {
+        width: 178px;
+        position: absolute;
+        right: 0;
+        bottom: 92px;
+    }
+}

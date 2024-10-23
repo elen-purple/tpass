@@ -319,4 +319,80 @@ body {
   position: absolute;
   bottom: 0;
   right: 70px;
+}
+
+.gifts {
+  padding: 180px 0 75px;
+}
+.gifts .container {
+  padding: 0 50px;
+}
+.gifts__wrapper {
+  background-color: #f4f5f6;
+  padding: 127px 0 109px 140px;
+  position: relative;
+}
+.gifts__subtitle {
+  color: #576d81;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1;
+  margin-bottom: 22px;
+}
+.gifts__title {
+  color: #0f2336;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 1.38;
+  width: 331px;
+  margin-bottom: 21px;
+}
+.gifts__desc {
+  color: #576d81;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 26px;
+  width: 404px;
+}
+.gifts__dots {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding-left: 4px;
+}
+.gifts__dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: #e3e6e8;
+}
+.gifts__dot--accent {
+  width: 55px;
+  background-color: #0cc;
+}
+.gifts__imgs {
+  position: absolute;
+  width: 547px;
+  height: 640px;
+  top: -50px;
+  right: 0;
+}
+.gifts__detail {
+  width: 163px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.gifts__phone {
+  width: 321px;
+  position: absolute;
+  bottom: 0;
+  left: 102px;
+}
+.gifts__milkshake {
+  width: 178px;
+  position: absolute;
+  right: 0;
+  bottom: 92px;
 }/*# sourceMappingURL=index.css.map */
