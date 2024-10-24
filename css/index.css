@@ -50,7 +50,6 @@ body {
   max-width: 1240px;
   margin: 0 auto;
   padding: 0 15px;
-  outline: darkred dashed;
 }
 
 .header {
@@ -331,6 +330,7 @@ body {
   background-color: #f4f5f6;
   padding: 127px 0 109px 140px;
   position: relative;
+  border-radius: 50px;
 }
 .gifts__subtitle {
   color: #576d81;
